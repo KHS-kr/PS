@@ -1,0 +1,10 @@
+class Solution {
+    fun solution(n: Int): Int {
+        var answer = 0
+
+        for(c in n.toString().toCharArray())
+            answer += c.toString().toInt()
+
+        return answer
+    }
+}
