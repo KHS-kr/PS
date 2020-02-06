@@ -1,0 +1,6 @@
+class Solution {
+    fun solution(strings: Array<String>, n: Int): Array<String> {
+        val answer = strings.sorted().sortedBy { it[n] }.toTypedArray()
+        return answer
+    }
+}
