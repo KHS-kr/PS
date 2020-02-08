@@ -1,0 +1,10 @@
+import java.util.*
+
+fun main(array : Array<String>) {
+    val sc = Scanner(System.`in`)
+
+    var first = sc.nextInt()
+    var second = sc.nextInt()
+
+    print((first.toDouble() / second))
+}
