@@ -44,4 +44,4 @@ fun main() {
     println(ret)
 }
 
-//참고 : https://colorscripter.com/s/HdczG4s
+//참고 : https://icanyoucanwecan.tistory.com/126, https://colorscripter.com/s/HdczG4s
