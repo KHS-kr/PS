@@ -23,5 +23,5 @@ fun main() = with(Scanner(System .`in`)) {
         }
     }
 
-    println(dp[N - 1][K])
+    println(dp[N][K])
 }
