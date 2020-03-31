@@ -21,5 +21,12 @@ fun main() = with(Scanner(System.`in`)) {
         }
     }
 
-    println(dp.max())
+    var ret = 0
+    for(i in 1..N) {
+        if(i + t[i] <= N + 1)
+            if(ret < dp[i])
+                ret = dp[i]
+    }
+    
+    println(ret)
 }
